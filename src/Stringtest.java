@@ -5,7 +5,6 @@ public class Stringtest {
     public static void main(String[] args) {
 
         // Strings are immutable
-
         String name = "Karan"; // old obj -> Garbage collection handles it
         System.out.println(name.hashCode());
         name = name + " Thakur";  // a new object created with different reference
@@ -34,6 +33,7 @@ public class Stringtest {
         // System.out.println(s);
         // System.out.println("Hello" + s); //string concat
         // //string methods
+        
         // System.out.println(name.charAt(2));
         // System.out.println(name.concat("THAKUR"));
         // System.out.println(name.contains(s));

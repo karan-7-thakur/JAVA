@@ -1,4 +1,5 @@
-
+// If one process crashes, it doesn't affect other processes. If one thread crashes, it can bring down the entire process.
+// threads are lightweight whereas process is heavyweight
 // threads - parallel execution of methods(behaviours) 
 // NOTE :- Every thread must have a run() method
 

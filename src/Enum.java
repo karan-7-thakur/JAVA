@@ -1,4 +1,4 @@
-
+//
 enum Status {
     running, Failed, Pending, Success;  //a group of named constants, like final variables
 }
@@ -6,7 +6,7 @@ enum Status {
 public class Enum {
 
     public static void main(String[] args) {
-        Status s = Status.running;
+        Status s = Status.Success;
         System.out.println(s);
         System.out.println(s.ordinal());  // gives the idx of that constant
 

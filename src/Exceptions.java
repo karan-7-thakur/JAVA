@@ -2,9 +2,10 @@
 class ThakurException extends Exception {  //custom exception
 
     public ThakurException(String str) {
-        // super(str);
+        super(str);
     }
 }
+
 
 public class Exceptions {
 
@@ -13,8 +14,8 @@ public class Exceptions {
         String str = null;  //null means absence of a value.
         int j = 0;
         try {
-
-            int a = 5 / 0;  //it throws an exception. no instructions will be executed further. Thats why we have finally block
+            // System.out.println(str.length());
+            // int a = 5 / 0;  //it throws an exception. no instructions will be executed further. Thats why we have finally block
             throw new ThakurException("i want to throw a custom exception");
 
             // if (j == 0){

@@ -37,5 +37,8 @@ public class Upcasting {
         //Downcasting
         B obj1 = (B) obj;  // typecasting superclass ref -> child class reference
         obj1.show2();
+
+        C obj3=(C) obj;
+        obj3.show();
     }
 }
