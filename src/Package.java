@@ -4,7 +4,7 @@ import packages.*;
 class Home extends Farm {
 
     public void hello() {
-        System.out.println("hi," + marks);
+        System.out.println("marks are: " + marks);
     }
 }
 
@@ -14,6 +14,6 @@ public class Package{
         Farm obj = new Farm();
         Home h1 = new Home();
         h1.hello();
-        // System.out.println(obj.marks);
+        // System.out.println(obj.marks); 
     }
 }
