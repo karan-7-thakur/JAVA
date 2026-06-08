@@ -7,8 +7,8 @@
 
 interface A {
 
-    int age = 22;   //By default - final and static
-    public static final String name = "bhidu";
+    int age = 22;  //All fields in interface public, static and final by default
+    public static final String name = "bhidu"; 
 
     // A(){} NOTE:- interface cant have any constructors whereas abstract class can
 
@@ -20,7 +20,7 @@ interface A {
     }
 }
 
-interface C extends A {   // An interface cant extend a class but can extend another interface.
+interface C extends A {   // An interface can't extend a class but can extend another interface.
     
     // @Override
     void hello();
@@ -43,6 +43,7 @@ class B implements A, C {           //multiple inheritance in interfaces not cla
 public class Interface {
 
     public static void main(String[] args) {
+
         A obj;
         obj = new B();  //cant instantiate interfaces 
         obj.hello();

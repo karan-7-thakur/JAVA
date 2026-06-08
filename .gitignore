@@ -9,3 +9,9 @@ bin/
 # IDE
 .idea/
 *.iml
+
+# Environment files
+DB.env
+
+#Program files
+JDBCDemo.java

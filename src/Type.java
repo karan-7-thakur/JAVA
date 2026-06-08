@@ -1,4 +1,5 @@
 
+
 class A extends Object {
 
     String name = "siuu";

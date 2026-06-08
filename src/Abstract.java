@@ -21,7 +21,7 @@ abstract class Car extends Object {
 class Truck extends Car {
     
     @Override
-    public void drive(String a, long b) {   // all abstract methods must be overridden or make the child class abstract.
+    public void drive(String a, long b) {   // IMP -all abstract methods must be overridden or make the child class abstract.
         System.out.println("in B drive");
         System.out.println(super.a);
     }
@@ -56,10 +56,10 @@ public class Abstract {
         Car obj;             //However we can create a reference of an abstract class
         obj = new Truck();
         obj.dance();
-        obj.drive("karan", 45);
+        obj.drive("karan", 45); 
 
-        Integer a = 45; //auto-boxing
-        int b = a;   // auto-unboxing
+        // Integer a = 45; //auto-boxing
+        // int b = a;   // auto-unboxing
         
     }
 }

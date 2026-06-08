@@ -1,6 +1,5 @@
 
 
-
 public class MutableString {
 
     public static void main(String[] args) {

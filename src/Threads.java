@@ -1,15 +1,18 @@
 // If one process crashes, it doesn't affect other processes. If one thread crashes, it can bring down the entire process.
-// threads are lightweight whereas process is heavyweight
+// threads are lightweight whereas process is heavyweight 
 // threads - parallel execution of methods(behaviours) 
+
 // NOTE :- Every thread must have a run() method
 
 // these two methods will run at the same time(concurrency)
 
+
+//In Java, threads can be created either by extending the Thread class or by implementing the Runnable interface
 class T1 extends Thread {  // T1 is now a Thread class
 
     public void run() {
         for (int i = 1; i <= 100; i++) {
-            System.out.println("Hi");
+            System.out.println("Thread 1 is running");
         }
     }
 }
@@ -19,7 +22,7 @@ class T2 extends Thread {
     @Override
     public void run() {
         for (int i = 1; i <= 100; i++) {
-            System.out.println("Hello");
+            System.out.println("Thread 2 is running");
         }
     }
 }

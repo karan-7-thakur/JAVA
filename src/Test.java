@@ -1,4 +1,5 @@
 
+
 class Tests extends Type {
 
     public Tests()
